@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Encriptador de texto con Javascript</title>
+</head>
+<body>
+    <header>
+            <h1>Encriptador de texto con Javascript</h1>
+    </header>
+    <main>
+        <section>
+            <h3>Ingrese el texto a encriptar</h3>
+            <div>
+                <textarea id="area1" name="textarea" placeholder="Solo letras en minusculas sin caracteres especiales" autofocus required></textarea><br><br>
+                <div class="buttonCenter">
+                     <button onclick="encriptar()"><strong>Encriptar</strong></button>
+                <button><strong>Desencriptar</strong></button>
+                </div>
+            </div>      
+            <h3>Ingrese el texto a desencriptar</h3>
+            <div>
+                <textarea id="area2" name="textarea" required></textarea><br><br>
+                <div class="buttonCenter">
+                    <button><strong>Copiar</strong></button>
+                </div>
+                
+            </div>
+            
+        </section> 
+        
+    </main>
+   
+    <footer>Desarrollado por <a href="mailto:duartezdavid@gmail.com">David Duartez</a> Copyright &copy;</footer>
+    
+</body>
+<script src="./script.js"></script>
+</html>
