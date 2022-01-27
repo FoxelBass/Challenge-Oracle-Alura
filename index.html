@@ -15,17 +15,17 @@
         <section>
             <h3>Ingrese el texto a encriptar</h3>
             <div>
-                <textarea id="area1" name="textarea" placeholder="Solo letras en minusculas sin caracteres especiales" autofocus required></textarea><br><br>
+                <textarea id="areaUno" name="textarea" placeholder="Solo letras en minusculas sin caracteres especiales" autofocus required></textarea><br><br>
                 <div class="buttonCenter">
-                     <button onclick="encriptar()"><strong>Encriptar</strong></button>
-                <button><strong>Desencriptar</strong></button>
+                     <button class="btn" id="encriptar"><strong>Encriptar</strong></button>
+                <button class="btn" id="desencriptar"><strong>Desencriptar</strong></button>
                 </div>
             </div>      
             <h3>Ingrese el texto a desencriptar</h3>
             <div>
-                <textarea id="area2" name="textarea" required></textarea><br><br>
+                <textarea id="areaDos" name="textarea" required></textarea><br><br>
                 <div class="buttonCenter">
-                    <button><strong>Copiar</strong></button>
+                    <button class="btn" id="copiar"><strong>Copiar</strong></button>
                 </div>
                 
             </div>
